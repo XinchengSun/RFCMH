@@ -1,2 +1,0 @@
-# RFCMH
-ICML'26
