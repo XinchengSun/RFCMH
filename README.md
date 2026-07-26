@@ -1,12 +1,35 @@
-<h1 align="center">RFCMH</h1>
+<h1 align="center">
+  Learning with Admissibility:<br>
+  Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels
+</h1>
 
 <p align="center">
-  <b>Learning with Admissibility: Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels
-</b>
+  <b>RFCMH</b>
 </p>
 
 <p align="center">
-  <b>ICML 2026 Spotlight</b>
+  Xincheng Sun<sup>1,2,*</sup>,
+  Ruitao Pu<sup>3,*</sup>,
+  Guangsi Shi<sup>4</sup>,
+  Zhenwen Ren<sup>5</sup>,
+  Peng Hu<sup>3</sup>,
+  Yuan Sun<sup>1,&dagger;</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>National Key Laboratory for Fundamental Algorithms and Models for Engineering Simulation, Sichuan University<br>
+  <sup>2</sup>Department of Computer Science and Technology, Heilongjiang University<br>
+  <sup>3</sup>School of Computer Science, Sichuan University<br>
+  <sup>4</sup>Corporate Research Center, Midea Group<br>
+  <sup>5</sup>Southwest University of Science and Technology
+</p>
+
+<p align="center">
+  <sup>*</sup> Equal contribution &nbsp;&nbsp; <sup>&dagger;</sup> Corresponding author
+</p>
+
+<p align="center">
+  <b>ICML 2026 Spotlight &middot; Proceedings of the 43rd International Conference on Machine Learning</b>
 </p>
 
 <p align="center">
@@ -28,7 +51,7 @@
   <a href="#-citation">Citation</a>
 </p>
 
-RFCMH is a cross-modal hashing framework for robust retrieval under noisy supervision. The repository provides the reference implementation and benchmark dataset download links for reproducing RFCMH experiments.
+RFCMH is a robust fuzzy cross-modal hashing framework for retrieval under noisy supervision. It introduces fuzzy set theory to endow noisy labels with admissibility, then uses Fuzzy Admissibility Refinement (FAR) and Dual-Granularity Structural Alignment (DGSA) to obtain reliable discriminative supervision and stable cross-modal representations.
 
 ## 📢 News
 
@@ -105,4 +128,16 @@ python main.py \
 
 ## 📖 Citation
 
-If you find this repository useful, please cite our paper. The BibTeX entry will be added after the camera-ready metadata is finalized.
+If you find this repository useful, please cite our paper:
+
+```bibtex
+@inproceedings{sun2026learning,
+  title={Learning with Admissibility: Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels},
+  author={Sun, Xincheng and Pu, Ruitao and Shi, Guangsi and Ren, Zhenwen and Hu, Peng and Sun, Yuan},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={306},
+  year={2026},
+  publisher={PMLR}
+}
+```
