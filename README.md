@@ -1,7 +1,7 @@
-<h2 align="center">
+<h3 align="center">
   Learning with Admissibility:<br>
   Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels
-</h2>
+</h3>
 
 
 
