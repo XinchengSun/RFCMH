@@ -131,13 +131,9 @@ python main.py \
 If you find this repository useful, please cite our paper:
 
 ```bibtex
-@inproceedings{sun2026learning,
+@inproceedings{sunlearning,
   title={Learning with Admissibility: Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels},
   author={Sun, Xincheng and Pu, Ruitao and Shi, Guangsi and Ren, Zhenwen and Hu, Peng and Sun, Yuan},
-  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
-  series={Proceedings of Machine Learning Research},
-  volume={306},
-  year={2026},
-  publisher={PMLR}
+  booktitle={Forty-third International Conference on Machine Learning}
 }
 ```
