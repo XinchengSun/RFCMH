@@ -1,9 +1,11 @@
+<hr>
+
 <h3 align="center">
   Learning with Admissibility:<br>
   Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels
 </h3>
 
-
+<hr>
 
 <p align="center">
   Xincheng Sun<sup>1,2,*</sup>,
