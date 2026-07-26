@@ -3,9 +3,7 @@
   Robust Fuzzy Hashing for Cross-Modal Retrieval with Noisy Labels
 </h2>
 
-<p align="center">
-  <b>RFCMH</b>
-</p>
+
 
 <p align="center">
   Xincheng Sun<sup>1,2,*</sup>,
